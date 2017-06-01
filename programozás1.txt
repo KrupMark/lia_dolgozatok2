@@ -1,0 +1,26 @@
+'use strict'
+let koszontes = "Szia";
+let kersztnev = "Pista";
+console.log(koszontes+" "+kersztnev);
+let szam1 = 3;
+let szam2 = 5;
+var eredmeny = szam1 + szam2;
+console.log("Az eredmeny: "+eredmeny);
+let vegtelen = Infinity;
+console.log("vegtelen valtozo tipusa: "+typeof(vegtelen));
+var veghezad = vegtelen + 100;
+console.log("vegtelenhez 100: "+veghezad);
+var veghezveg = vegtelen + vegtelen;
+console.log("vegtelenhez vegtelen: "+veghezveg);
+var a = 9;
+var b = "R";
+var suma = a+b;
+var sumb = a-b;
+console.log("1. osszeadas: "+suma);
+console.log("1. kivonas: "+sumb);
+var c = 9;
+var d = "7";
+var sumc = c+d;
+var sumd = c-d;
+console.log("2. osszeadas: "+sumc);
+console.log("2. kivonas: "+sumd);
